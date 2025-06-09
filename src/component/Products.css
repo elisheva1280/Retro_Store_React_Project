@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+
+body, .page-wrapper {
+  font-family: 'David Libre', Georgia, serif;
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  background-color: #f7f3e9;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: auto;
+  color: #3b2b1f;
+}
+
+#productBudy {
+  background-color: transparent;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  color: #4b3621;
+  border-bottom: 2px solid #bca67d;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 0 5px;
+  color: #3b2b1f;
+  border: 1px solid #8c6e50;
+  background-color: #d6b083;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: #caa394;
+  border-color: #6f4e37;
+}
+
+.row.justify-content-center {
+  gap: 12px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: auto;
+  max-width: 960px;
+}
+
+.elegant-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0;
+}
+
+/* 4 כרטיסים בשורה במסכים גדולים */
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 25%; /* 4 כרטיסים בשורה */
+    max-width: 25%;
+  }
+}
+
+/* 2 כרטיסים בשורה בטאבלטים */
+@media (max-width: 991px) and (min-width: 768px) {
+  .elegant-card-wrapper {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+}
+
+/* כרטיס בודד בשורה במסכים קטנים */
+@media (max-width: 767px) {
+  .elegant-card-wrapper {
+    flex: 0 0 90%;
+    max-width: 90%;
+  }
+}
+
+.elegant-card {
+  display: flex;
+  flex-direction: column; /* תצוגה בעמודה */
+  justify-content: space-between; /* רווח שווה בין האלמנטים */
+  /* height: 400px; גובה קבוע גדול יותר */
+  background-color: #f6f6f6;
+  border: 1px solid hsl(0, 12%, 54%);
+  box-shadow: 0 6px 14px rgba(139, 117, 90, 0.25);
+  font-family: 'David Libre', Georgia, serif;
+  padding: 14px;
+  width: 100%; /* הכרטיס ממלא את רוחב התיבה */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+  height: auto; /* שינוי לגובה אוטומטי */
+  overflow: hidden; /* זה יכול להישאר אם אתה רוצה לחתוך תוכן אחר */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.product-image {
+  height: 200px; /* גובה קבוע */
+  object-fit: scale-down; /* תמונה תתמלא מבלי לחתוך */
+  padding: 8px;
+  width: 100%; /* ודא שהתמונה תתפוס את כל רוחב המיכל */
+}
+
+.options-button {
+  background-color: #f8f1ec;
+  color: #4e3827;
+  border: 1px solid #a89076;
+  width: 100%;
+  font-size: 14px;
+  padding: 6px 0; /* שינוי לגובה קטן יותר */
+  margin-top: 10px; /* שים את הערך הרצוי לרווח */
+  font-family: 'David Libre', Georgia, serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(160, 130, 100, 0.2);
+  margin-top: auto; /* דחוף את הכפתור לתחתית */
+}
+
+.options-button:hover {
+  background-color: #ca9991;
+  color: #3e2d1f;
+  box-shadow: 0 4px 12px rgba(160, 130, 100, 0.3);
+}
+
+.cart-icon {
+  width: 26px;
+  cursor: pointer;
+  margin-bottom: 10px; /* שים את הערך הרצוי לרווח */
+}
+
+.out-of-stock {
+  font-size: 0.85rem;
+  color: darkred;
+}
+
+.description-text {
+  font-size: 0.85rem;
+  color: #6e5c45;
+}
+
+.popup-header {
+  font-family: 'David Libre', Georgia, serif;
+  background-color: #f8f1e4;
+  color: #3b2b1f;
+}
+
+.popup-content {
+  background-color: #fffaf3;
+}
+
+.popup-actions {
+  background-color: #f8f1e4;
+}

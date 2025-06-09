@@ -1,0 +1,18 @@
+export const JUDAICA='JUDAICA';
+export const CARS='CARS';
+export const MUSIC='MUSIC';
+export const FURNITURE='FURNITURE';
+export const WATCHES='WATCHES';
+export const EARTHENWARE='EARTHENWARE';
+export const ADDSHOPPINGCART='ADDSHOPPINGCART';
+export const REMOVESHOPPINGCART='REMOVESHOPPINGCART';
+export const SELECTEDPRODUCT='SELECTEDPRODUCT';
+export const ADDCOUNT='ADDCOUNT';
+export const REMOVECOUNT='REMOVECOUNT';
+export const ADDPRICE='ADDPRICE';
+export const REMOVEPRICE='REMOVEPRICE';
+export const SEARCH='SEARCH';
+
+
+
+

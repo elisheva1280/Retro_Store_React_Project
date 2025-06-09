@@ -1,0 +1,71 @@
+.footer {
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  direction: rtl;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid #555;
+  padding-bottom: 5px;
+}
+
+.footer-section p,
+.footer-section a {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #cccccc;
+  text-decoration: none;
+  display: block;
+}
+
+.footer-section a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  color: #cccccc;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: column; /* כל אייקון וטקסט בשורה נפרדת */
+  align-items: flex-start; /* מיישר את האייקונים והטקסטים בצד שמאל */
+}
+
+.footer-item {
+  display: flex;
+  align-items: center; /* מיישר את האייקון והטקסט במרכז */
+  margin-bottom: 10px; /* רווח בין כל שורה */
+}
+
+.footer-item img {
+  margin-right: 10px; /* רווח בין האייקון לטקסט */
+}

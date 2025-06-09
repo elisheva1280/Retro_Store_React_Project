@@ -1,0 +1,129 @@
+.p {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slider-container {
+
+    width: auto;
+
+    height: 250px;
+
+    overflow: hidden;
+
+}
+
+
+.slider-container img {
+
+    height: auto ;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+
+}
+/* .slick-dots {
+    left: 0 !important;
+    right: auto !important;
+    text-align: left !important;
+} */
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  /* Center the items horizontally */
+    padding: 10px;
+}
+
+.submit-button {
+    background-color:hsl(0, 17%, 43%);
+    color: white;
+    border: none;
+    border-radius: 15px;   /* Match rounded borders */
+    padding: 5px;          /* Same padding as input fields */
+    cursor: pointer;
+    width: 200px;          /* Fixed width for the button matching the inputs */
+    height: 36px;         /* Match the height of the input fields */
+}
+
+.label {
+    font-size: smaller;
+    margin-right: 10px;
+}
+
+.input-field {
+    margin-right: 10px;
+    border-radius: 15px;  /* Rounded borders for the input field */
+    text-align: right;      /* Align text to the right */
+    padding: 5px;          /* Add some padding inside the input field */
+    width: 200px;          /* Fixed width for the input field */
+    border: 2px solid #ccc; /* Uniform border color */
+}
+.success-message {
+    font-size: 24px;        /* Increase the font size */
+    font-weight: bold;      /* Make the text bold */
+    text-align: center;     /* Center the text */
+    margin: 20px 0;        /* Add top and bottom margin */
+    color: green;           /* Choose a color for the message */
+}
+.brand-title {
+    font-family: 'Arial', sans-serif; /* Use a professional and clean font */
+    font-size: 24px; /* Set a readable font size */
+    font-weight: bold; /* Make the title bold for emphasis */
+    color:hsl(0, 17%, 43%); /* A dark gray color for better readability */
+    text-transform: uppercase; /* Change text to uppercase for a stylish look */
+    letter-spacing: 1px; /* Add spacing between letters */
+    margin: 20px 0; /* Provide space above and below the title */
+    text-align: center; /* Center the text */
+}
+
+.center-text {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Align content to the center */
+    align-items: center; /* Align items vertically in the center */
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .h2{
+    font-size: 150px;
+} */
+
+
+@keyframes scaleUpDown {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02); /* Slightly grow the image */
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+
+.slider-container img {
+    width: 100%;
+    max-height: 250px; /* Optional max height */
+    object-fit: cover;
+    animation: scaleUpDown 2s linear infinite; /* Apply the scaling animation */
+}
+
+.slick-active img {
+    animation: scaleUpDown 2s linear infinite; /* Only apply on the active image */
+}
+.rtl-text {
+    direction: rtl; /* Set text direction to right-to-left */
+    unicode-bidi: bidi-override; /* Override the unicode bidirectional algorithm */
+}
