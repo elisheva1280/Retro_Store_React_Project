@@ -1,4 +1,4 @@
-# Retro Store Project (React)
+ # Retro Store Project (React)
 
 An online retro store for selling collectibles, Judaica, furniture, musical instruments, clocks, ceramics, and more.
 
@@ -59,4 +59,8 @@ public/             // Static files (index.html, favicon, etc.)
 Pull requests with improvements, bug fixes, or new features are welcome!
 
 ## Credits
-- Development: miri ben-dov
+- Development: Elisheva Cohen
+
+
+
+
