@@ -1,6 +1,6 @@
  # Retro Store Project (React)
 
-An online retro store for selling collectibles, Judaica, furniture, musical instruments, clocks, ceramics, and more.
+An online retro store for selling collectibles, Judaica, furniture, musical instruments, clocks, ceramics, and more...
 
 ## Project Description
 
